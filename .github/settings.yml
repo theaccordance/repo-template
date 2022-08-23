@@ -38,6 +38,9 @@ repository:
   # rebase-merging.
   allow_rebase_merge: false
 
+  # Enables the Repo to be re-used as a template
+  is_template: true
+
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: bug
